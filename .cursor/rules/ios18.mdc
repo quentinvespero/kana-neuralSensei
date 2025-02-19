@@ -1,0 +1,46 @@
+---
+description: 
+globs: 
+---
+---
+Description: iOS 18 and Swift 6 Best Practices
+Globs: **/*.swift
+---
+
+# iOS 18 and Swift 6 Guidelines
+
+## SwiftUI
+- Use SwiftUI 6 for all new UI development
+- Implement `NavigationStack` instead of `NavigationView`
+- Utilize `@Observable` macro for state management
+- Adopt `ScrollView.ContentMargins` for improved scroll view layouts
+
+## Swift Language
+- Use `async`/`await` for asynchronous operations
+- Implement structured concurrency with `Task` and `TaskGroup`
+- Utilize `Actor` for thread-safe state management
+- Adopt `Sendable` protocol for concurrent value types
+
+## Networking
+- Use `URLSession` with async/await API
+- Implement `AsyncSequence` for streaming data
+
+## Data Persistence
+- Use Swift Data framework for data modeling and persistence
+- Implement `@Model` macro for SwiftUI integration with Swift Data
+
+## Security
+- Utilize Privacy Manifests for third-party SDKs
+- Implement App Privacy Report integration
+
+## Accessibility
+- Use VoiceOver enhancements in iOS 18
+- Implement Live Speech functionality where appropriate
+
+## Performance
+- Adopt Metal 3 for high-performance graphics
+- Utilize on-device machine learning with Core ML 6
+
+## App Architecture
+- Implement App Intents for Siri and Shortcuts integration
+- Use Swift Package Manager for dependency management
