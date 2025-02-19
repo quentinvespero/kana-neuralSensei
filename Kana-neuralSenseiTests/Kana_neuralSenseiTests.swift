@@ -1,0 +1,17 @@
+//
+//  Kana_neuralSenseiTests.swift
+//  Kana-neuralSenseiTests
+//
+//  Created by quentin on 2/19/25.
+//
+
+import Testing
+@testable import Kana_neuralSensei
+
+struct Kana_neuralSenseiTests {
+
+    @Test func example() async throws {
+        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+    }
+
+}
