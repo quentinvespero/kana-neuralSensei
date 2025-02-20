@@ -22,3 +22,4 @@ Pods/
 # Other
 *.swp
 *.lock
+*.cursor
